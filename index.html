@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regmiSujeet</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="container">
+            <a class='logo' href="index.html"><span>Regmi</span></a>
+            <img id="mobile-cta" class="mobile-menu" src="/images/menu.svg" alt="Open Navigation">
+            
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="/images/exit.svg" alt="exit-navigation">
+                <ul class="primary-nav"> 
+                    
+                </ul>
+
+                <ul class="secondary-nav">
+                    
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li ><a href="#Contact">Contact</a></li>
+                    
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">Hi ! I am Graphic &amp; Web designer</p>
+                <h1>Quality and classy service.</h1>
+                <h4>Providing service for more than 2 years.</h4>
+                <div class="hero-cta">
+                    <!-- <a href="#" class="primary-cta">Book Now</a>
+                    <a href="#" class="watch-video-cta">
+                        <img src="/images/watch.svg"  alt="watch a video">Watch Video
+                    </a> -->
+                </div>
+            </div>
+
+            <img src="/images/IMG_6977.png"class="hero-img" alt="Photo">
+        </div>
+    </section>
+
+    <section id="services" class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                 <li>Photo Editing</li>
+                 <li>Graphic Designing</li>
+                 <li>Logo Designing</li>
+                 <li>Web Development</li>
+            </ul>
+
+            <img src="/images/holding-phone.jpg" alt="image">
+        </div>
+    </section>
+
+    <section id="testimonial" class="testimonial-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="/images/person.jpg" alt="">
+                    <blockquote>Being the part fo the company is the most valueable thing for me and working with such hardworking guys is always a positive part for me and the company</blockquote>
+                    <cite>- Sujeet Regmi</cite>
+                </li>
+
+                <li>
+                    <img src="/images/person.jpg" alt="">
+                    <blockquote>Being the part fo the company is the most valueable thing for me and working with such hardworking guys is always a positive part for me and the company</blockquote>
+                    <cite>- Sujeet Regmi</cite>
+                </li>
+
+                <li>
+                    <img src="/images/person.jpg" alt="">
+                    <blockquote>Being the part fo the company is the most valueable thing for me and working with such hardworking guys is always a positive part for me and the company</blockquote>
+                    <cite>- Sujeet Regmi</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Contact" class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact</h2>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <input type="submit" class="send-message-cta" value="send message">
+                </form>
+            </div>
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56533.45569066339!2d83.3576677885506!3d27.675854251534602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39968924e044e411%3A0xb12fe2b8054560ec!2sRanibagiya%2C%20Sainamaina%2032900!5e0!3m2!1sen!2snp!4v1619785074082!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+    </script>
+    <script>
+        // class getElementById(cdf to rh)
+    </script>
+
+</body>
+</html>
